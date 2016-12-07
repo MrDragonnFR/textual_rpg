@@ -15,7 +15,6 @@ public class Methods {
 			bw.write(fileContent);
 			bw.flush();
 			bw.close();
-			System.out.println("Fichier créé");
 		} catch (IOException e) {
 			System.err
 					.println("Erreur levée de type IOException au niveau de la méthode "
