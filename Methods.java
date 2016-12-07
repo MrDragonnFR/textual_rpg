@@ -29,7 +29,7 @@ public class Methods {
 		String line = null;
 		StringBuffer str = new StringBuffer();
 		try {
-			scanner = new Scanner(new File(filePathInput));
+		scanner = new Scanner(new File(filePathInput));
 
 			while (scanner.hasNextLine()) {
 				line = scanner.nextLine();
