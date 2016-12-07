@@ -7,7 +7,7 @@ public class Menu {
 	static Scanner sc = new Scanner(System.in);
 	static String ver = "Alpha 1.0";
 	
-	public static void main(String[] args) throws InterruptedException {
+	public static void start() throws InterruptedException {
 			// version //
 			
 		int rep = 0;
@@ -74,7 +74,7 @@ public class Menu {
 				Print("->  Pressez une touche pour continuer");
 				sc.next();
 					try {
-						main(null);
+						start();
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
